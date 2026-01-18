@@ -4,6 +4,21 @@ Data: 17/01/2026
 Empresa: Abstergo Industries  
 Responsável: Vitória Alvares dos Santos 
 
+---
+
+### Arquitetura AWS da Abstergo Industries
+
+<p align="center">
+  <img src="assets/arquitetura_aws_abstergo.png" alt="Arquitetura AWS" height="375px" />
+</p>
+
+*Figura 1: Diagrama mostrando a interação entre EC2, S3 e RDS na Abstergo Industries.* 
+- **EC2** → Servidores internos e processamento  
+- **S3** → Armazenamento de arquivos  
+- **RDS** → Banco de dados relacional gerenciado
+
+--- 
+
 ## Introdução
 
 Este relatório apresenta uma proposta inicial de implementação de serviços em nuvem na empresa **Abstergo Industries**, uma empresa do setor farmacêutico que atua como hub de distribuição para outras empresas e farmácias. A proposta foi elaborada por Vitória Alvares dos Santos.
@@ -69,7 +84,6 @@ O Amazon RDS permite o uso de bancos de dados relacionais sem a necessidade de g
 **Principal ganho:**  
 Confiabilidade e menor custo operacional com equipes técnicas.
 
----
 
 ## Conclusão
 
@@ -77,23 +91,7 @@ A implementação dos serviços **Amazon EC2, Amazon S3 e Amazon RDS** na empres
 
 Essas soluções permitem que a empresa pague apenas pelo que utiliza, evitando investimentos iniciais elevados em infraestrutura física. Recomenda-se a continuidade da adoção de serviços em nuvem e a avaliação de novas soluções AWS conforme o crescimento do negócio.
 
----
-
-### Arquitetura AWS da Abstergo
-
-<p align="center">
-  <img src="assets/arquitetura_aws_abstergo.png" alt="Arquitetura AWS" height="379px" />
-</p>
-
-*Figura 1: Diagrama mostrando a interação entre EC2, S3 e RDS na Abstergo Industries.* 
-- **EC2** → Servidores internos e processamento  
-- **S3** → Armazenamento de arquivos  
-- **RDS** → Banco de dados relacional gerenciado
-
----
-
 ## Anexos
-
 - Documentação oficial da **AWS**:
   - **EC2**: https://docs.aws.amazon.com/ec2/index.html
   - **S3**: https://docs.aws.amazon.com/s3/index.html
@@ -106,4 +104,5 @@ Essas soluções permitem que a empresa pague apenas pelo que utiliza, evitando 
 ### Vitória Alvares dos Santos
 ### Contatos:  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vitória-alvares/)  
+
 [![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=007BFF)](mailto:Alvares26Sa@proton.me)  
