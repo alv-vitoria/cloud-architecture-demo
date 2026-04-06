@@ -1,7 +1,7 @@
 # RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
 
 Data: 17/01/2026  
-Empresa: Abstergo Industries  
+Empresa: Abstergo Industries  *(Empresa ficticia)*  
 Responsável: Vitória Alvares dos Santos 
 
 ---
